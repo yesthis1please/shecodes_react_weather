@@ -11,9 +11,10 @@
 }
 
 .searchInput {
-  padding: 10px 60px;
+  padding: 10px 60px 10px 10px;
   border-radius: 15px;
   font-size: 16px;
+  text-align: left;
 }
 
 .submitInput {
@@ -25,22 +26,22 @@
 }
 
 .submitInput:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
-.currentWeatherIcon{
-    padding: 40px;
+.currentWeatherIcon {
+  padding: 40px;
 }
 
-.currentTemp{
-    font-size: 82px;
+.currentTemp {
+  font-size: 82px;
 }
 
-.currentConditions{
-    padding: 5px;
-    font-size: 12px;
+.currentConditions {
+  padding: 5px;
+  font-size: 12px;
 }
 
 .city {
-    font-size: 36px;
+  font-size: 36px;
 }
