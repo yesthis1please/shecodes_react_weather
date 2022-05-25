@@ -38,28 +38,30 @@ export default function Search() {
   }
   return (
     <div className="Search">
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} className="form">
         <input
           type="search"
-          placeholder="How's the weather in..."
+          placeholder="How's the weather in"
           onChange={changeCity}
+          className="searchInput"
         />
-        <input type="submit" value="Show me!" />
+        <input type="submit" value="Show me!" className="submitInput" />
       </form>
       <div className="currentWeather">
-        <div className="currentConditions">
-          💦 {humidity}% 🌪 {windSpeed}km/h
-        </div>
         <div className="currentWeatherIcon">
           <ReactAnimatedWeather
             icon="PARTLY_CLOUDY_DAY"
             color="white"
-            size="100"
+            size="150"
             animate="true"
           />
         </div>
         <div className="currentTemp">{temperature}°C</div>
         <div className="currentCondition">{condition}</div>
+        <div className="currentConditions">
+          Humidity: {humidity}% <br />
+          Windspeed: {windSpeed}km/h
+        </div>
         <div className="city">
           {city}, {country}
         </div>

@@ -1,3 +1,46 @@
 .Search {
+  padding: 40px 20px;
   color: white;
+  background-color: black;
+  border-radius: 30px;
+  box-shadow: 20px 20px 25px 9px rgba(0, 0, 0, 0.2);
+}
+
+.form {
+  margin-bottom: 30px;
+}
+
+.searchInput {
+  padding: 10px 60px;
+  border-radius: 15px;
+  font-size: 16px;
+}
+
+.submitInput {
+  padding: 10px 20px;
+  margin-left: 20px;
+  border-radius: 15px;
+  background-color: white;
+  font-size: 16px;
+}
+
+.submitInput:hover {
+    cursor: pointer;
+}
+
+.currentWeatherIcon{
+    padding: 40px;
+}
+
+.currentTemp{
+    font-size: 82px;
+}
+
+.currentConditions{
+    padding: 5px;
+    font-size: 12px;
+}
+
+.city {
+    font-size: 36px;
 }
