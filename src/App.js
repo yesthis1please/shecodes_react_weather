@@ -6,12 +6,9 @@ import Search from "./Search.js";
 function App() {
   return (
     <div className="App">
-      <header className="AppHeader">
+      <header className="App-header">
         <Search />
       </header>
-      <footer className="AppFooter">
-        <a href=""
-      </footer>
     </div>
   );
 }
